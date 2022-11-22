@@ -23,8 +23,9 @@ body.lock {
   flex-direction: column;
 }
 
-main {
+.main {
   flex: 1 1 0;
+  padding: 150px 0 0px 0;
 }
 
 [class*="__container"] {

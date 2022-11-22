@@ -5,12 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Виртуальная Стажировка</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="./css/internships.css">
     <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
     <div class="wraper">
-        Виртуальная Стажировка
+        <header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<h3 class="header__logo-title">БГАС</h3>
+					<p class="header__logo-subtitle">Виртуальная Стажировка</p>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="./index.html" class="menu__link active">Главная</a></li>
+							<li><a href="./internships.html" class="menu__link">Стажировки</a></li>
+							<li><a href="#help" class="menu__link">О проекте</a></li>
+							<li><a target="_blank" href="http://www.bsac.by/" class="menu__link">Платформа</a></li>
+						</ul>
+					</nav>
+					<div class="menu__icon icon-menu">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+        <main class="main">
+            <section class="modules">
+               <div class="modules__container">
+                    <h2 class="modules__title">Модули</h2>
+                    <div class="modules__column">
+                        <div class="modules__module module">
+                            <div class="module__image">
+                                <img src="./images/inside_module.jpeg" alt="module image">
+                            </div>
+                            <div class="module__description">
+                                <h3 class="module__title">Внутренние исходящие ПО</h3>
+                                <p class="module__text">Виды почтовых отправлений разновидность почтовых отправлений, отличительными признаками которых явля- ются характер вложений, размер, вес, вид упаковки.</p>
+                                <a class="module__button" href="./modules-html/module1.html">Продолжить</a>
+                            </div>
+                            
+                        </div>
+                        <div class="modules__module module">
+                            <div class="module__image">
+                                <img src="./images/module_2.jpeg" alt="module image">
+                            </div>
+                            <div class="module__description">
+                                <h3 class="module__title">Следующий модуль</h3>
+                                <p class="module__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia pariatur magni facilis ratione sunt veniam optio odit dolorem iure ex velit impedit, molestias ipsum cum ea blanditiis accusantium consequuntur repellat.</p>
+                                <a class="module__button" href="">Продолжить</a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               
+            </section>
+        </main>
+        <footer class="footer">
+			<div class="footer__container">
+				© 2022 возможные ссылки
+			</div>
+		</footer>
     </div>
+    <script type="module" src="./js/internships.js"></script>
 </body>
 </html>
