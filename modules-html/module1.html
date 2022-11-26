@@ -10,27 +10,40 @@
 </head>
 <body>
     <div class="wraper">
-        <header class="header">
-            <div class="header__container">
-                <a class="header__link" href="../internships.html">вернуться назад</a>
-            </div>
-        </header>
-        <main class="main current-module">
-            <section class="current-module__info">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<h3 class="header__logo-title">БГАС</h3>
+					<p class="header__logo-subtitle">Виртуальная Стажировка</p>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="../internships.html" class="menu__link">← назад</a></li>
+						</ul>
+					</nav>
+					<div class="menu__icon icon-menu">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+        <main class="main">
+            <section class="current-module">
                 <div class="current-module__container">
-                    <div class="current-module__title">Внутренние исходящие ПО</div>
-                    <div>0 / 2</div>
-                </div>
-            </section>
-            <section class="current-module module-parts">
-                <div class="module-parts__container">
-                    <div class="module-parts__part part">
-                        <h4 class="part__title">1 часть</h4>
-                        <p>теория</p>
+                    <div class="current-module__label">
+                        <div class="current-module__title">Внутренние исходящие ПО</div>
+                        <div class="current-module__progress">0 / 2</div>
                     </div>
-                    <div class="module-parts__part part">
-                        <h4 class="part__title">2 часть</h4>
-                        <p>практика</p>
+                    <div class="current-module module-parts">
+                        <a class="module-parts__part part _part" href="">
+                            <h4 class="part__title _part">1 часть</h4>
+                            <h5 class="part__sub-title _part">теория</h5>
+                        </a>
+                        <a class="module-parts__part part _part" href="">
+                            <h4 class="part__title _part">2 часть</h4>
+                            <h5 class="part__sub-title _part">практика</h5>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -41,5 +54,8 @@
 			</div>
 		</footer>
     </div>
+    <script type="module" src="../js/module.js"></script>
+
+    
 </body>
 </html>

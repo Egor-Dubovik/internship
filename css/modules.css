@@ -1,41 +1,58 @@
 @import url("./modules/common.css");
+@import url("./modules/header-module.css");
 
-.main {
-    padding: 0;
-}
 
-.header {
-}
-.header__container {
-}
-.header__link {
-}
 
-.current-module__info {
-    padding: 30px 0;
+.current-module {
+    color: #fff;
 }
 .current-module__container {
 }
-.current-module__title {
-    font-size: 24px;
-    font-weight: 600;
+.current-module__label {
+    padding: 25px 47px 15px 47px;
+    margin-bottom: 30px;
+    background-color: rgba(137, 43, 226, 0.233);
+    border-radius: 10px;
 }
-.current-module {
+.current-module__title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: rgb(137, 43, 226);
+}
+.current-module__progress {
+    color: rgb(137, 43, 226);
 }
 .module-parts {
-   
-}
-.module-parts__container {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .module-parts__part {
 }
 .part {
-    padding: 30px;
+    padding: 20px 47px 15px 47px;
     border-radius: 10px;
-    background-color: rgb(226, 231, 248);
+    background-color: #fc870233;
+    transition: all 0.3s ease;
 }
-.part__title {
 
+.part:hover {
+    background-color: #fc87025b;
+}
+
+.part__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+.part__sub-title{
+    font-weight: 600;
+    color: #fc8702b0;
+}
+
+
+
+.current-part {
+    color: black;
 }
